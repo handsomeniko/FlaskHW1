@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'nikoflaskHW1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_44631344999145E487843A753445163B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_424F273485F14F1DB619E8E682406A2C }}
