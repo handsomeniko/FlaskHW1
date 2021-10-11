@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} 
+User - {{ username }}
+{% endblock title %}
+
+{% block nvbar%}
+{{ username }}的會員頁面
+{% endblock nvbar%}
+
+{% block message %}
+<h1><會員資料></h1>
+<h1>會員名稱: {{ username }}</h1>
+<h1>電子郵箱: {{ email }}</h1>
+{% endblock message %}

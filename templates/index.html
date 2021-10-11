@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{% if username %}
+Homepage - {{ username }}
+{% else %}
+Homepage
+{% endif %}
+{% endblock %}
+
+{% block nvbar%}
+{% if username %}
+{{ username }}的網站
+{% else %}
+Nvbar
+{% endif %}
+{% endblock nvbar%}
+
+{% block message %}
+{% if username %}
+<h1>安安,{{username}}</h1>
+{% else %}
+<h1>記得登入(/login)或註冊(/register)喔!!!</h1>
+{% endif %}
+{% endblock message %}
+
